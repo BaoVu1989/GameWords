@@ -11,6 +11,7 @@
 		F254BDB724B6DC0000A87E2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F254BDB624B6DC0000A87E2A /* ContentView.swift */; };
 		F254BDB924B6DC0000A87E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F254BDB824B6DC0000A87E2A /* Assets.xcassets */; };
 		F254BDBC24B6DC0000A87E2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F254BDBB24B6DC0000A87E2A /* Preview Assets.xcassets */; };
+		F254BDC624B6E13700A87E2A /* BaoVu.txt in Resources */ = {isa = PBXBuildFile; fileRef = F254BDC524B6E13700A87E2A /* BaoVu.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F254BDB824B6DC0000A87E2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F254BDBB24B6DC0000A87E2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F254BDBD24B6DC0000A87E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F254BDC524B6E13700A87E2A /* BaoVu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BaoVu.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				F254BDB424B6DC0000A87E2A /* GameWordsSwiftUIApp.swift */,
 				F254BDB624B6DC0000A87E2A /* ContentView.swift */,
+				F254BDC524B6E13700A87E2A /* BaoVu.txt */,
 				F254BDB824B6DC0000A87E2A /* Assets.xcassets */,
 				F254BDBD24B6DC0000A87E2A /* Info.plist */,
 				F254BDBA24B6DC0000A87E2A /* Preview Content */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F254BDC624B6E13700A87E2A /* BaoVu.txt in Resources */,
 				F254BDBC24B6DC0000A87E2A /* Preview Assets.xcassets in Resources */,
 				F254BDB924B6DC0000A87E2A /* Assets.xcassets in Resources */,
 			);

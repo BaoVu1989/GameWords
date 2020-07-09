@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var currentWord = ""
+    
     var body: some View {
-        Text("Hello, world!").padding()
+        NavigationView{
+            VStack{
+                Text("Hello Word")
+            }
+            .navigationBarTitle(currentWord)
+            .onAppear {
+                self.startGame()
+            }
+        }
+    }
+    
+    func startGame(){
+        if let startWordsURL = Bundle.main.url(forResource: "BaoVu", withExtension: "txt"){
+            if let startWords = try? String(contentsOf: startWordsURL){
+                let allWords = startWords.components(separatedBy: "\n")
+                currentWord = allWords.randomElement() ?? "silkworm"
+                return
+            }
+        }
+        fatalError("Could not load BaoVu.txt from bundle")
     }
 }
 
